@@ -4,8 +4,8 @@
   <title>无人车左右侧视线框</title>
   <desc>Autonomous boxy vehicle orthographic left+right side elevations only.
 Scale 1 user unit = 1 mm. L=3000 H=1700 W=1100.
-Rear L-cutout depth≈650mm (估测), shelf height≈1140mm (估测).
-Left side: display screen ≈1280×820mm + seam band (non-decal).
+Rear L-cutout depth≈460mm (估测), shelf height≈1140mm (估测).
+Right side: display screen ≈1280×820mm + seam band (non-decal). Left: solid panel.
 Red/silver 警示贴条 on edges (non-decal). Lower chassis filled #c8c8c8 = non-decal.
 No front view, no top view.</desc>
   <rect width="100%" height="100%" fill="#ffffff"/>
@@ -17,72 +17,53 @@ No front view, no top view.</desc>
 
   <!-- 左侧视 nose_left=False -->
 <rect x="280" y="1360" width="3000" height="560" fill="#c8c8c8" stroke="none"/>
-<path d="M 280,780 L 930,780 L 930,220 L 3240,220 A 40 40 0 0 1 3280,260 L 3280,1880 A 40 40 0 0 1 3240,1920 L 280,1920 Z" fill="none" stroke="#111" stroke-width="3" stroke-linejoin="miter"/>
+<path d="M 280,780 L 740,780 L 740,220 L 3240,220 A 40 40 0 0 1 3280,260 L 3280,1880 A 40 40 0 0 1 3240,1920 L 280,1920 Z" fill="none" stroke="#111" stroke-width="3" stroke-linejoin="miter"/>
 <line x1="280" y1="1360" x2="3280" y2="1360" stroke="#111" stroke-width="2.5"/>
 <line x1="2900" y1="228" x2="2900" y2="1360" stroke="#111" stroke-width="2"/>
-<rect x="1275.0" y="310" width="1280.0" height="820" fill="#c8c8c8" stroke="#111" stroke-width="2.5"/>
-<rect x="1330.0" y="365" width="1170.0" height="690" fill="#9a9a9a" stroke="#111" stroke-width="1.8"/>
-<rect x="1845.0" y="1078.5" width="140" height="28" rx="4" fill="none" stroke="#111" stroke-width="2"/>
-<text x="1915.0" y="702.0" text-anchor="middle" font-size="36" font-family="'Noto Sans CJK SC','Noto Sans SC','Source Han Sans SC',sans-serif" fill="#333" font-weight="600">显示屏</text>
-<text x="1915.0" y="738.0" text-anchor="middle" font-size="22" font-family="'Noto Sans CJK SC','Noto Sans SC','Source Han Sans SC',sans-serif" fill="#555">安装缝·不可贴花</text>
-<rect x="2920" y="300" width="320" height="1020" fill="none" stroke="#999" stroke-width="1.5" stroke-dasharray="12 8"/>
-<text x="3080.0" y="350" text-anchor="middle" font-size="24" font-family="'Noto Sans CJK SC','Noto Sans SC','Source Han Sans SC',sans-serif" fill="#888">可贴花区</text>
-<rect x="2575.0" y="300" width="295.0" height="1010" fill="none" stroke="#999" stroke-width="1.5" stroke-dasharray="12 8"/>
-<text x="2722.5" y="350" text-anchor="middle" font-size="22" font-family="'Noto Sans CJK SC','Noto Sans SC','Source Han Sans SC',sans-serif" fill="#888">可贴花区</text>
-<rect x="960" y="300" width="295.0" height="1010" fill="none" stroke="#999" stroke-width="1.5" stroke-dasharray="12 8"/>
-<text x="1107.5" y="350" text-anchor="middle" font-size="20" font-family="'Noto Sans CJK SC','Noto Sans SC','Source Han Sans SC',sans-serif" fill="#888">可贴花区</text>
-<rect x="1275.0" y="1138" width="1280.0" height="194" fill="none" stroke="#999" stroke-width="1.2" stroke-dasharray="10 7"/>
-<rect x="310" y="800" width="600" height="530" rx="6" fill="none" stroke="#111" stroke-width="2"/>
-<rect x="866.0" y="1010.0" width="28" height="110" rx="4" fill="none" stroke="#111" stroke-width="2"/>
-<rect x="380" y="840" width="500" height="460" fill="none" stroke="#999" stroke-width="1.2" stroke-dasharray="10 7"/>
+<rect x="765" y="270" width="2110" height="1050" rx="8" fill="none" stroke="#111" stroke-width="2"/>
+<rect x="805" y="310" width="2030" height="930" rx="4" fill="none" stroke="#111" stroke-width="1.2"/>
+<rect x="1750.0" y="1279.0" width="140" height="32" rx="4" fill="none" stroke="#111" stroke-width="2"/>
+<rect x="825" y="340" width="1990" height="850" fill="none" stroke="#999" stroke-width="1.5" stroke-dasharray="12 8"/>
+<text x="1820.0" y="370" text-anchor="middle" font-size="32" font-family="'Noto Sans CJK SC','Noto Sans SC','Source Han Sans SC',sans-serif" fill="#888">可贴花区</text>
+<rect x="310" y="800" width="410" height="530" rx="6" fill="none" stroke="#111" stroke-width="2"/>
+<rect x="676.0" y="1010.0" width="28" height="110" rx="4" fill="none" stroke="#111" stroke-width="2"/>
+<rect x="380" y="840" width="310" height="460" fill="none" stroke="#999" stroke-width="1.2" stroke-dasharray="10 7"/>
 <g class="warning-tape" stroke="#333" stroke-width="0.8">
-    <rect x="3170.0" y="230" width="22.5" height="24" fill="#c62828"/>
-    <rect x="3192.5" y="230" width="22.5" height="24" fill="#d0d0d0"/>
-    <rect x="3215.0" y="230" width="22.5" height="24" fill="#c62828"/>
-    <rect x="3237.5" y="230" width="22.5" height="24" fill="#d0d0d0"/>
+    <rect x="3142.0" y="220" width="43.3" height="50" fill="#c62828"/>
+    <rect x="3185.3" y="220" width="43.3" height="50" fill="#d0d0d0"/>
+    <rect x="3228.7" y="220" width="43.3" height="50" fill="#c62828"/>
     </g>
 <g class="warning-tape" stroke="#333" stroke-width="0.8">
-    <rect x="2860.0" y="230" width="22.5" height="24" fill="#c62828"/>
-    <rect x="2882.5" y="230" width="22.5" height="24" fill="#d0d0d0"/>
-    <rect x="2905.0" y="230" width="22.5" height="24" fill="#c62828"/>
-    <rect x="2927.5" y="230" width="22.5" height="24" fill="#d0d0d0"/>
+    <rect x="3230" y="220.0" width="50" height="43.3" fill="#c62828"/>
+    <rect x="3230" y="263.3" width="50" height="43.3" fill="#d0d0d0"/>
+    <rect x="3230" y="306.7" width="50" height="43.3" fill="#c62828"/>
     </g>
 <g class="warning-tape" stroke="#333" stroke-width="0.8">
-    <rect x="940.0" y="230" width="22.5" height="24" fill="#c62828"/>
-    <rect x="962.5" y="230" width="22.5" height="24" fill="#d0d0d0"/>
-    <rect x="985.0" y="230" width="22.5" height="24" fill="#c62828"/>
-    <rect x="1007.5" y="230" width="22.5" height="24" fill="#d0d0d0"/>
+    <rect x="744.0" y="220" width="43.3" height="50" fill="#c62828"/>
+    <rect x="787.3" y="220" width="43.3" height="50" fill="#d0d0d0"/>
+    <rect x="830.7" y="220" width="43.3" height="50" fill="#c62828"/>
     </g>
 <g class="warning-tape" stroke="#333" stroke-width="0.8">
-    <rect x="825.0" y="786" width="22.5" height="24" fill="#c62828"/>
-    <rect x="847.5" y="786" width="22.5" height="24" fill="#d0d0d0"/>
-    <rect x="870.0" y="786" width="22.5" height="24" fill="#c62828"/>
-    <rect x="892.5" y="786" width="22.5" height="24" fill="#d0d0d0"/>
+    <rect x="740" y="220.0" width="50" height="43.3" fill="#c62828"/>
+    <rect x="740" y="263.3" width="50" height="43.3" fill="#d0d0d0"/>
+    <rect x="740" y="306.7" width="50" height="43.3" fill="#c62828"/>
     </g>
 <g class="warning-tape" stroke="#333" stroke-width="0.8">
-    <rect x="300.0" y="786" width="22.5" height="24" fill="#c62828"/>
-    <rect x="322.5" y="786" width="22.5" height="24" fill="#d0d0d0"/>
-    <rect x="345.0" y="786" width="22.5" height="24" fill="#c62828"/>
-    <rect x="367.5" y="786" width="22.5" height="24" fill="#d0d0d0"/>
+    <rect x="602.0" y="780" width="43.3" height="50" fill="#c62828"/>
+    <rect x="645.3" y="780" width="43.3" height="50" fill="#d0d0d0"/>
+    <rect x="688.7" y="780" width="43.3" height="50" fill="#c62828"/>
     </g>
 <g class="warning-tape" stroke="#333" stroke-width="0.8">
-    <rect x="2888.0" y="232.0" width="24" height="22.5" fill="#c62828"/>
-    <rect x="2888.0" y="254.5" width="24" height="22.5" fill="#d0d0d0"/>
-    <rect x="2888.0" y="277.0" width="24" height="22.5" fill="#c62828"/>
-    <rect x="2888.0" y="299.5" width="24" height="22.5" fill="#d0d0d0"/>
+    <rect x="280" y="780.0" width="50" height="43.3" fill="#c62828"/>
+    <rect x="280" y="823.3" width="50" height="43.3" fill="#d0d0d0"/>
+    <rect x="280" y="866.7" width="50" height="43.3" fill="#c62828"/>
     </g>
 <g class="warning-tape" stroke="#333" stroke-width="0.8">
-    <rect x="918.0" y="232.0" width="24" height="22.5" fill="#c62828"/>
-    <rect x="918.0" y="254.5" width="24" height="22.5" fill="#d0d0d0"/>
-    <rect x="918.0" y="277.0" width="24" height="22.5" fill="#c62828"/>
-    <rect x="918.0" y="299.5" width="24" height="22.5" fill="#d0d0d0"/>
+    <rect x="288.0" y="1310" width="43.3" height="50" fill="#c62828"/>
+    <rect x="331.3" y="1310" width="43.3" height="50" fill="#d0d0d0"/>
+    <rect x="374.7" y="1310" width="43.3" height="50" fill="#c62828"/>
     </g>
-<g class="warning-tape" stroke="#333" stroke-width="0.8">
-    <rect x="286.0" y="786.0" width="24" height="23.3" fill="#c62828"/>
-    <rect x="286.0" y="809.3" width="24" height="23.3" fill="#d0d0d0"/>
-    <rect x="286.0" y="832.7" width="24" height="23.3" fill="#c62828"/>
-    </g>
-<text x="3215" y="282" text-anchor="middle" font-size="18" font-family="'Noto Sans CJK SC','Noto Sans SC','Source Han Sans SC',sans-serif" fill="#c62828">警示贴条·不可贴花</text>
+<text x="3190" y="298" text-anchor="middle" font-size="18" font-family="'Noto Sans CJK SC','Noto Sans SC','Source Han Sans SC',sans-serif" fill="#c62828">警示贴条·不可贴花</text>
 <rect x="1500.0" y="1440" width="560.0" height="200" rx="8" fill="none" stroke="#111" stroke-width="2"/>
 <circle cx="1990.0" cy="1540.0" r="28" fill="none" stroke="#111" stroke-width="2"/>
 <path d="M 1992.0,1524.0 L 1982.0,1542.0 L 1991.0,1542.0 L 1988.0,1556.0 L 2000.0,1538.0 L 1991.0,1538.0 Z" fill="none" stroke="#111" stroke-width="2" stroke-linejoin="round"/>
@@ -155,12 +136,12 @@ No front view, no top view.</desc>
 <rect x="2960" y="130" width="160" height="90" rx="18" fill="none" stroke="#111" stroke-width="2"/>
 <text x="3040.0" y="182" text-anchor="middle" font-size="20" font-family="'Noto Sans CJK SC','Noto Sans SC','Source Han Sans SC',sans-serif" fill="#444">LiDAR</text>
 <rect x="3232" y="290" width="40" height="110" fill="none" stroke="#111" stroke-width="1.5"/>
-<rect x="300" y="360" width="600" height="420" rx="8" fill="#fff" stroke="#111" stroke-width="2.5"/>
-<text x="600.0" y="578.0" text-anchor="middle" font-size="24" font-family="'Noto Sans CJK SC','Noto Sans SC','Source Han Sans SC',sans-serif" fill="#444">无人机机场</text>
-<line x1="570.0" y1="360" x2="570.0" y2="290" stroke="#111" stroke-width="1.5"/>
-<circle cx="570.0" cy="275" r="14" fill="none" stroke="#111" stroke-width="1.5"/>
-<circle cx="552.0" cy="275" r="7" fill="none" stroke="#111" stroke-width="1.2"/>
-<circle cx="588.0" cy="275" r="7" fill="none" stroke="#111" stroke-width="1.2"/>
+<rect x="300" y="250" width="420" height="530" rx="8" fill="#fff" stroke="#111" stroke-width="2.5"/>
+<text x="510.0" y="523.0" text-anchor="middle" font-size="24" font-family="'Noto Sans CJK SC','Noto Sans SC','Source Han Sans SC',sans-serif" fill="#444">无人机机场</text>
+<line x1="489.0" y1="250" x2="489.0" y2="180" stroke="#111" stroke-width="1.5"/>
+<circle cx="489.0" cy="165" r="14" fill="none" stroke="#111" stroke-width="1.5"/>
+<circle cx="471.0" cy="165" r="7" fill="none" stroke="#111" stroke-width="1.2"/>
+<circle cx="507.0" cy="165" r="7" fill="none" stroke="#111" stroke-width="1.2"/>
 <text x="3080" y="1340" font-size="22" font-family="'Noto Sans CJK SC','Noto Sans SC','Source Han Sans SC',sans-serif" fill="#888" text-anchor="middle">白上车身</text>
 <text x="3080" y="1400" font-size="22" font-family="'Noto Sans CJK SC','Noto Sans SC','Source Han Sans SC',sans-serif" fill="#666" text-anchor="middle">黑下底盘（非贴花）</text>
 <text x="3200" y="1975" text-anchor="middle" font-size="28" font-family="'Noto Sans CJK SC','Noto Sans SC','Source Han Sans SC',sans-serif" fill="#666">前</text>
@@ -168,65 +149,60 @@ No front view, no top view.</desc>
 <text x="1780.0" y="2020" text-anchor="middle" font-size="52" font-weight="700" font-family="'Noto Sans CJK SC','Noto Sans SC','Source Han Sans SC',sans-serif" fill="#111">左侧视</text>
   <!-- 右侧视 nose_left=True -->
 <rect x="280" y="3320" width="3000" height="560" fill="#c8c8c8" stroke="none"/>
-<path d="M 320,2180 L 2630,2180 L 2630,2740 L 3280,2740 L 3280,3880 L 320,3880 A 40 40 0 0 1 280,3840 L 280,2220 A 40 40 0 0 1 320,2180 Z" fill="none" stroke="#111" stroke-width="3" stroke-linejoin="miter"/>
+<path d="M 320,2180 L 2820,2180 L 2820,2740 L 3280,2740 L 3280,3880 L 320,3880 A 40 40 0 0 1 280,3840 L 280,2220 A 40 40 0 0 1 320,2180 Z" fill="none" stroke="#111" stroke-width="3" stroke-linejoin="miter"/>
 <line x1="280" y1="3320" x2="3280" y2="3320" stroke="#111" stroke-width="2.5"/>
 <line x1="660" y1="2188" x2="660" y2="3320" stroke="#111" stroke-width="2"/>
-<rect x="685" y="2230" width="1920" height="1050" rx="8" fill="none" stroke="#111" stroke-width="2"/>
-<rect x="725" y="2270" width="1840" height="930" rx="4" fill="none" stroke="#111" stroke-width="1.2"/>
-<rect x="1575.0" y="3239.0" width="140" height="32" rx="4" fill="none" stroke="#111" stroke-width="2"/>
-<rect x="745" y="2300" width="1800" height="850" fill="none" stroke="#999" stroke-width="1.5" stroke-dasharray="12 8"/>
-<text x="1645.0" y="2330" text-anchor="middle" font-size="32" font-family="'Noto Sans CJK SC','Noto Sans SC','Source Han Sans SC',sans-serif" fill="#888">可贴花区</text>
-<rect x="2650" y="2760" width="600" height="530" rx="6" fill="none" stroke="#111" stroke-width="2"/>
-<rect x="2666.0" y="2970.0" width="28" height="110" rx="4" fill="none" stroke="#111" stroke-width="2"/>
-<rect x="2720" y="2800" width="500" height="460" fill="none" stroke="#999" stroke-width="1.2" stroke-dasharray="10 7"/>
+<rect x="1100.0" y="2270" width="1280.0" height="820" fill="#c8c8c8" stroke="#111" stroke-width="2.5"/>
+<rect x="1155.0" y="2325" width="1170.0" height="690" fill="#9a9a9a" stroke="#111" stroke-width="1.8"/>
+<rect x="1670.0" y="3038.5" width="140" height="28" rx="4" fill="none" stroke="#111" stroke-width="2"/>
+<text x="1740.0" y="2662.0" text-anchor="middle" font-size="36" font-family="'Noto Sans CJK SC','Noto Sans SC','Source Han Sans SC',sans-serif" fill="#333" font-weight="600">显示屏</text>
+<text x="1740.0" y="2698.0" text-anchor="middle" font-size="22" font-family="'Noto Sans CJK SC','Noto Sans SC','Source Han Sans SC',sans-serif" fill="#555">安装缝·不可贴花</text>
+<rect x="320" y="2260" width="320" height="1020" fill="none" stroke="#999" stroke-width="1.5" stroke-dasharray="12 8"/>
+<text x="480.0" y="2310" text-anchor="middle" font-size="24" font-family="'Noto Sans CJK SC','Noto Sans SC','Source Han Sans SC',sans-serif" fill="#888">可贴花区</text>
+<rect x="690" y="2260" width="390.0" height="1010" fill="none" stroke="#999" stroke-width="1.5" stroke-dasharray="12 8"/>
+<text x="885.0" y="2310" text-anchor="middle" font-size="22" font-family="'Noto Sans CJK SC','Noto Sans SC','Source Han Sans SC',sans-serif" fill="#888">可贴花区</text>
+<rect x="2400.0" y="2260" width="390.0" height="1010" fill="none" stroke="#999" stroke-width="1.5" stroke-dasharray="12 8"/>
+<text x="2595.0" y="2310" text-anchor="middle" font-size="20" font-family="'Noto Sans CJK SC','Noto Sans SC','Source Han Sans SC',sans-serif" fill="#888">可贴花区</text>
+<rect x="1100.0" y="3098" width="1280.0" height="194" fill="none" stroke="#999" stroke-width="1.2" stroke-dasharray="10 7"/>
+<rect x="2840" y="2760" width="410" height="530" rx="6" fill="none" stroke="#111" stroke-width="2"/>
+<rect x="2856.0" y="2970.0" width="28" height="110" rx="4" fill="none" stroke="#111" stroke-width="2"/>
+<rect x="2910" y="2800" width="310" height="460" fill="none" stroke="#999" stroke-width="1.2" stroke-dasharray="10 7"/>
 <g class="warning-tape" stroke="#333" stroke-width="0.8">
-    <rect x="300.0" y="2190" width="22.5" height="24" fill="#c62828"/>
-    <rect x="322.5" y="2190" width="22.5" height="24" fill="#d0d0d0"/>
-    <rect x="345.0" y="2190" width="22.5" height="24" fill="#c62828"/>
-    <rect x="367.5" y="2190" width="22.5" height="24" fill="#d0d0d0"/>
+    <rect x="288.0" y="2180" width="43.3" height="50" fill="#c62828"/>
+    <rect x="331.3" y="2180" width="43.3" height="50" fill="#d0d0d0"/>
+    <rect x="374.7" y="2180" width="43.3" height="50" fill="#c62828"/>
     </g>
 <g class="warning-tape" stroke="#333" stroke-width="0.8">
-    <rect x="610.0" y="2190" width="22.5" height="24" fill="#c62828"/>
-    <rect x="632.5" y="2190" width="22.5" height="24" fill="#d0d0d0"/>
-    <rect x="655.0" y="2190" width="22.5" height="24" fill="#c62828"/>
-    <rect x="677.5" y="2190" width="22.5" height="24" fill="#d0d0d0"/>
+    <rect x="280" y="2180.0" width="50" height="43.3" fill="#c62828"/>
+    <rect x="280" y="2223.3" width="50" height="43.3" fill="#d0d0d0"/>
+    <rect x="280" y="2266.7" width="50" height="43.3" fill="#c62828"/>
     </g>
 <g class="warning-tape" stroke="#333" stroke-width="0.8">
-    <rect x="2530.0" y="2190" width="22.5" height="24" fill="#c62828"/>
-    <rect x="2552.5" y="2190" width="22.5" height="24" fill="#d0d0d0"/>
-    <rect x="2575.0" y="2190" width="22.5" height="24" fill="#c62828"/>
-    <rect x="2597.5" y="2190" width="22.5" height="24" fill="#d0d0d0"/>
+    <rect x="2686.0" y="2180" width="43.3" height="50" fill="#c62828"/>
+    <rect x="2729.3" y="2180" width="43.3" height="50" fill="#d0d0d0"/>
+    <rect x="2772.7" y="2180" width="43.3" height="50" fill="#c62828"/>
     </g>
 <g class="warning-tape" stroke="#333" stroke-width="0.8">
-    <rect x="2645.0" y="2746" width="22.5" height="24" fill="#c62828"/>
-    <rect x="2667.5" y="2746" width="22.5" height="24" fill="#d0d0d0"/>
-    <rect x="2690.0" y="2746" width="22.5" height="24" fill="#c62828"/>
-    <rect x="2712.5" y="2746" width="22.5" height="24" fill="#d0d0d0"/>
+    <rect x="2770" y="2180.0" width="50" height="43.3" fill="#c62828"/>
+    <rect x="2770" y="2223.3" width="50" height="43.3" fill="#d0d0d0"/>
+    <rect x="2770" y="2266.7" width="50" height="43.3" fill="#c62828"/>
     </g>
 <g class="warning-tape" stroke="#333" stroke-width="0.8">
-    <rect x="3170.0" y="2746" width="22.5" height="24" fill="#c62828"/>
-    <rect x="3192.5" y="2746" width="22.5" height="24" fill="#d0d0d0"/>
-    <rect x="3215.0" y="2746" width="22.5" height="24" fill="#c62828"/>
-    <rect x="3237.5" y="2746" width="22.5" height="24" fill="#d0d0d0"/>
+    <rect x="2828.0" y="2740" width="43.3" height="50" fill="#c62828"/>
+    <rect x="2871.3" y="2740" width="43.3" height="50" fill="#d0d0d0"/>
+    <rect x="2914.7" y="2740" width="43.3" height="50" fill="#c62828"/>
     </g>
 <g class="warning-tape" stroke="#333" stroke-width="0.8">
-    <rect x="648.0" y="2192.0" width="24" height="22.5" fill="#c62828"/>
-    <rect x="648.0" y="2214.5" width="24" height="22.5" fill="#d0d0d0"/>
-    <rect x="648.0" y="2237.0" width="24" height="22.5" fill="#c62828"/>
-    <rect x="648.0" y="2259.5" width="24" height="22.5" fill="#d0d0d0"/>
+    <rect x="3230" y="2740.0" width="50" height="43.3" fill="#c62828"/>
+    <rect x="3230" y="2783.3" width="50" height="43.3" fill="#d0d0d0"/>
+    <rect x="3230" y="2826.7" width="50" height="43.3" fill="#c62828"/>
     </g>
 <g class="warning-tape" stroke="#333" stroke-width="0.8">
-    <rect x="2618.0" y="2192.0" width="24" height="22.5" fill="#c62828"/>
-    <rect x="2618.0" y="2214.5" width="24" height="22.5" fill="#d0d0d0"/>
-    <rect x="2618.0" y="2237.0" width="24" height="22.5" fill="#c62828"/>
-    <rect x="2618.0" y="2259.5" width="24" height="22.5" fill="#d0d0d0"/>
+    <rect x="3142.0" y="3270" width="43.3" height="50" fill="#c62828"/>
+    <rect x="3185.3" y="3270" width="43.3" height="50" fill="#d0d0d0"/>
+    <rect x="3228.7" y="3270" width="43.3" height="50" fill="#c62828"/>
     </g>
-<g class="warning-tape" stroke="#333" stroke-width="0.8">
-    <rect x="3250.0" y="2746.0" width="24" height="23.3" fill="#c62828"/>
-    <rect x="3250.0" y="2769.3" width="24" height="23.3" fill="#d0d0d0"/>
-    <rect x="3250.0" y="2792.7" width="24" height="23.3" fill="#c62828"/>
-    </g>
-<text x="345" y="2242" text-anchor="middle" font-size="18" font-family="'Noto Sans CJK SC','Noto Sans SC','Source Han Sans SC',sans-serif" fill="#c62828">警示贴条·不可贴花</text>
+<text x="370" y="2258" text-anchor="middle" font-size="18" font-family="'Noto Sans CJK SC','Noto Sans SC','Source Han Sans SC',sans-serif" fill="#c62828">警示贴条·不可贴花</text>
 <rect x="1500.0" y="3400" width="560.0" height="200" rx="8" fill="none" stroke="#111" stroke-width="2"/>
 <circle cx="1570.0" cy="3500.0" r="28" fill="none" stroke="#111" stroke-width="2"/>
 <path d="M 1572.0,3484.0 L 1562.0,3502.0 L 1571.0,3502.0 L 1568.0,3516.0 L 1580.0,3498.0 L 1571.0,3498.0 Z" fill="none" stroke="#111" stroke-width="2" stroke-linejoin="round"/>
@@ -299,12 +275,12 @@ No front view, no top view.</desc>
 <rect x="440" y="2090" width="160" height="90" rx="18" fill="none" stroke="#111" stroke-width="2"/>
 <text x="520.0" y="2142" text-anchor="middle" font-size="20" font-family="'Noto Sans CJK SC','Noto Sans SC','Source Han Sans SC',sans-serif" fill="#444">LiDAR</text>
 <rect x="288" y="2250" width="40" height="110" fill="none" stroke="#111" stroke-width="1.5"/>
-<rect x="2660" y="2320" width="600" height="420" rx="8" fill="#fff" stroke="#111" stroke-width="2.5"/>
-<text x="2960.0" y="2538.0" text-anchor="middle" font-size="24" font-family="'Noto Sans CJK SC','Noto Sans SC','Source Han Sans SC',sans-serif" fill="#444">无人机机场</text>
-<line x1="2990.0" y1="2320" x2="2990.0" y2="2250" stroke="#111" stroke-width="1.5"/>
-<circle cx="2990.0" cy="2235" r="14" fill="none" stroke="#111" stroke-width="1.5"/>
-<circle cx="2972.0" cy="2235" r="7" fill="none" stroke="#111" stroke-width="1.2"/>
-<circle cx="3008.0" cy="2235" r="7" fill="none" stroke="#111" stroke-width="1.2"/>
+<rect x="2840" y="2210" width="420" height="530" rx="8" fill="#fff" stroke="#111" stroke-width="2.5"/>
+<text x="3050.0" y="2483.0" text-anchor="middle" font-size="24" font-family="'Noto Sans CJK SC','Noto Sans SC','Source Han Sans SC',sans-serif" fill="#444">无人机机场</text>
+<line x1="3071.0" y1="2210" x2="3071.0" y2="2140" stroke="#111" stroke-width="1.5"/>
+<circle cx="3071.0" cy="2125" r="14" fill="none" stroke="#111" stroke-width="1.5"/>
+<circle cx="3053.0" cy="2125" r="7" fill="none" stroke="#111" stroke-width="1.2"/>
+<circle cx="3089.0" cy="2125" r="7" fill="none" stroke="#111" stroke-width="1.2"/>
 <text x="400" y="3300" font-size="22" font-family="'Noto Sans CJK SC','Noto Sans SC','Source Han Sans SC',sans-serif" fill="#888" text-anchor="middle">白上车身</text>
 <text x="400" y="3360" font-size="22" font-family="'Noto Sans CJK SC','Noto Sans SC','Source Han Sans SC',sans-serif" fill="#666" text-anchor="middle">黑下底盘（非贴花）</text>
 <text x="360" y="3935" text-anchor="middle" font-size="28" font-family="'Noto Sans CJK SC','Noto Sans SC','Source Han Sans SC',sans-serif" fill="#666">前</text>
@@ -333,10 +309,10 @@ No front view, no top view.</desc>
   
   <g class="dim" stroke="#111" fill="#111" stroke-width="1.5">
     <line x1="280" y1="150.0" x2="280" y2="190.0"/>
-    <line x1="930" y1="150.0" x2="930" y2="190.0"/>
-    <line x1="280" y1="170" x2="930" y2="170"/>
-    <text x="605.0" y="158" text-anchor="middle" font-size="40" font-family="'Noto Sans CJK SC','Noto Sans SC','Source Han Sans SC',sans-serif"
-          stroke="none" fill="#111">650 估测·开缺深</text>
+    <line x1="740" y1="150.0" x2="740" y2="190.0"/>
+    <line x1="280" y1="170" x2="740" y2="170"/>
+    <text x="510.0" y="158" text-anchor="middle" font-size="40" font-family="'Noto Sans CJK SC','Noto Sans SC','Source Han Sans SC',sans-serif"
+          stroke="none" fill="#111">460 估测·开缺深</text>
   </g>
   
   <g class="dim" stroke="#111" fill="#111" stroke-width="1.5">
@@ -366,11 +342,11 @@ No front view, no top view.</desc>
   </g>
   
   <g class="dim" stroke="#111" fill="#111" stroke-width="1.5">
-    <line x1="2630" y1="2110.0" x2="2630" y2="2150.0"/>
+    <line x1="2820" y1="2110.0" x2="2820" y2="2150.0"/>
     <line x1="3280" y1="2110.0" x2="3280" y2="2150.0"/>
-    <line x1="2630" y1="2130" x2="3280" y2="2130"/>
-    <text x="2955.0" y="2118" text-anchor="middle" font-size="40" font-family="'Noto Sans CJK SC','Noto Sans SC','Source Han Sans SC',sans-serif"
-          stroke="none" fill="#111">650 估测·开缺深</text>
+    <line x1="2820" y1="2130" x2="3280" y2="2130"/>
+    <text x="3050.0" y="2118" text-anchor="middle" font-size="40" font-family="'Noto Sans CJK SC','Noto Sans SC','Source Han Sans SC',sans-serif"
+          stroke="none" fill="#111">460 估测·开缺深</text>
   </g>
   
   <g class="dim" stroke="#111" fill="#111" stroke-width="1.5">
@@ -398,6 +374,6 @@ No front view, no top view.</desc>
         stroke="#ddd" stroke-width="1" stroke-dasharray="8 10"/>
 
   <!-- Notes -->
-  <text x="40" y="4070" font-size="24" fill="#555" font-family="'Noto Sans CJK SC','Noto Sans SC','Source Han Sans SC',sans-serif">注：仅左侧视（上，车头朝右）+ 右侧视（下，车头朝左）。后部为直角 L 形开缺；无人机机场嵌于凹台内、顶面低于主车顶。开缺深/台面高据照片估测。</text>
-  <text x="40" y="4110" font-size="22" fill="#777" font-family="'Noto Sans CJK SC','Noto Sans SC','Source Han Sans SC',sans-serif">非贴花：灰底盘 / 左侧显示屏+安装缝 / 红银警示贴条。虚线框=可贴花区（已避开屏幕与贴条）。右侧无屏幕（照片未见）。无前视/俯视。</text>
+  <text x="40" y="4070" font-size="24" fill="#555" font-family="'Noto Sans CJK SC','Noto Sans SC','Source Han Sans SC',sans-serif">注：仅左侧视（上，车头朝右）+ 右侧视（下，车头朝左）。后部为直角 L 形开缺；无人机机场嵌于凹台内、顶面近乎齐主车顶。开缺深/台面高据照片估测。</text>
+  <text x="40" y="4110" font-size="22" fill="#777" font-family="'Noto Sans CJK SC','Noto Sans SC','Source Han Sans SC',sans-serif">非贴花：灰底盘 / 右侧显示屏+安装缝 / 红银警示贴条。虚线框=可贴花区（已避开屏幕与贴条）。左侧实心门板大可贴花区。无前视/俯视。</text>
 </svg>
