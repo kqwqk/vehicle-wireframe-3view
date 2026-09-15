@@ -7,7 +7,7 @@ Scale 1 user unit = 1 mm. L=3000 H=1700 W=1100.
 Rear L-cutout depth≈460mm (估测), shelf height≈1140mm (估测); rear white face VERTICAL.
 Front (车头) white-body slant ≈6.0° from vertical (inset 120mm / WHITE_H).
 Right side: display screen ≈1280×820mm + seam band (non-decal). Left: solid panel.
-Red/silver 警示贴条 on front slant + rear L corners (non-decal). Lower chassis filled #c8c8c8 = non-decal.
+Red/silver 警示贴条 on rear L corners only (non-decal; 车头无警示条). Lower chassis filled #c8c8c8 = non-decal.
 No front view, no top view.</desc>
   <rect width="100%" height="100%" fill="#ffffff"/>
 
@@ -29,45 +29,6 @@ No front view, no top view.</desc>
 <rect x="300" y="800" width="420" height="530" rx="6" fill="none" stroke="#111" stroke-width="2"/>
 <rect x="676.0" y="1010.0" width="28" height="110" rx="4" fill="none" stroke="#111" stroke-width="2"/>
 <rect x="370" y="840" width="320" height="460" fill="none" stroke="#999" stroke-width="1.2" stroke-dasharray="10 7"/>
-<g class="warning-tape" stroke="#333" stroke-width="0.8">
-    <rect x="3026.0" y="220" width="43.3" height="50" fill="#c62828"/>
-    <rect x="3069.3" y="220" width="43.3" height="50" fill="#d0d0d0"/>
-    <rect x="3112.7" y="220" width="43.3" height="50" fill="#c62828"/>
-    </g>
-<g class="warning-tape slant" stroke="#333" stroke-width="0.8">
-    <polygon points="3160.0,220.0 3164.4,262.2 3114.7,267.5 3110.3,225.2" fill="#c62828"/>
-    <polygon points="3164.4,262.2 3168.9,304.4 3119.2,309.7 3114.7,267.5" fill="#d0d0d0"/>
-    <polygon points="3168.9,304.4 3173.3,346.7 3123.6,351.9 3119.2,309.7" fill="#c62828"/>
-    <polygon points="3173.3,346.7 3177.8,388.9 3128.1,394.1 3123.6,351.9" fill="#d0d0d0"/>
-    <polygon points="3177.8,388.9 3182.2,431.1 3132.5,436.3 3128.1,394.1" fill="#c62828"/>
-    <polygon points="3182.2,431.1 3186.7,473.3 3136.9,478.6 3132.5,436.3" fill="#d0d0d0"/>
-    <polygon points="3186.7,473.3 3191.1,515.6 3141.4,520.8 3136.9,478.6" fill="#c62828"/>
-    <polygon points="3191.1,515.6 3195.6,557.8 3145.8,563.0 3141.4,520.8" fill="#d0d0d0"/>
-    <polygon points="3195.6,557.8 3200.0,600.0 3150.3,605.2 3145.8,563.0" fill="#c62828"/>
-    <polygon points="3200.0,600.0 3204.4,642.2 3154.7,647.5 3150.3,605.2" fill="#d0d0d0"/>
-    <polygon points="3204.4,642.2 3208.9,684.4 3159.2,689.7 3154.7,647.5" fill="#c62828"/>
-    <polygon points="3208.9,684.4 3213.3,726.7 3163.6,731.9 3159.2,689.7" fill="#d0d0d0"/>
-    <polygon points="3213.3,726.7 3217.8,768.9 3168.1,774.1 3163.6,731.9" fill="#c62828"/>
-    <polygon points="3217.8,768.9 3222.2,811.1 3172.5,816.3 3168.1,774.1" fill="#d0d0d0"/>
-    <polygon points="3222.2,811.1 3226.7,853.3 3176.9,858.6 3172.5,816.3" fill="#c62828"/>
-    <polygon points="3226.7,853.3 3231.1,895.6 3181.4,900.8 3176.9,858.6" fill="#d0d0d0"/>
-    <polygon points="3231.1,895.6 3235.6,937.8 3185.8,943.0 3181.4,900.8" fill="#c62828"/>
-    <polygon points="3235.6,937.8 3240.0,980.0 3190.3,985.2 3185.8,943.0" fill="#d0d0d0"/>
-    <polygon points="3240.0,980.0 3244.4,1022.2 3194.7,1027.5 3190.3,985.2" fill="#c62828"/>
-    <polygon points="3244.4,1022.2 3248.9,1064.4 3199.2,1069.7 3194.7,1027.5" fill="#d0d0d0"/>
-    <polygon points="3248.9,1064.4 3253.3,1106.7 3203.6,1111.9 3199.2,1069.7" fill="#c62828"/>
-    <polygon points="3253.3,1106.7 3257.8,1148.9 3208.1,1154.1 3203.6,1111.9" fill="#d0d0d0"/>
-    <polygon points="3257.8,1148.9 3262.2,1191.1 3212.5,1196.3 3208.1,1154.1" fill="#c62828"/>
-    <polygon points="3262.2,1191.1 3266.7,1233.3 3216.9,1238.6 3212.5,1196.3" fill="#d0d0d0"/>
-    <polygon points="3266.7,1233.3 3271.1,1275.6 3221.4,1280.8 3216.9,1238.6" fill="#c62828"/>
-    <polygon points="3271.1,1275.6 3275.6,1317.8 3225.8,1323.0 3221.4,1280.8" fill="#d0d0d0"/>
-    <polygon points="3275.6,1317.8 3280.0,1360.0 3230.3,1365.2 3225.8,1323.0" fill="#c62828"/>
-    </g>
-<g class="warning-tape" stroke="#333" stroke-width="0.8">
-    <rect x="3146.0" y="1310" width="43.3" height="50" fill="#c62828"/>
-    <rect x="3189.3" y="1310" width="43.3" height="50" fill="#d0d0d0"/>
-    <rect x="3232.7" y="1310" width="43.3" height="50" fill="#c62828"/>
-    </g>
 <g class="warning-tape" stroke="#333" stroke-width="0.8">
     <rect x="744.0" y="220" width="43.3" height="50" fill="#c62828"/>
     <rect x="787.3" y="220" width="43.3" height="50" fill="#d0d0d0"/>
@@ -98,7 +59,7 @@ No front view, no top view.</desc>
     <rect x="331.3" y="1310" width="43.3" height="50" fill="#d0d0d0"/>
     <rect x="374.7" y="1310" width="43.3" height="50" fill="#c62828"/>
     </g>
-<text x="3190" y="298" text-anchor="middle" font-size="18" font-family="'Noto Sans CJK SC','Noto Sans SC','Source Han Sans SC',sans-serif" fill="#c62828">警示贴条·不可贴花</text>
+<text x="820" y="298" text-anchor="middle" font-size="18" font-family="'Noto Sans CJK SC','Noto Sans SC','Source Han Sans SC',sans-serif" fill="#c62828">警示贴条·不可贴花</text>
 <rect x="1500.0" y="1440" width="560.0" height="200" rx="8" fill="none" stroke="#111" stroke-width="2"/>
 <circle cx="1990.0" cy="1540.0" r="28" fill="none" stroke="#111" stroke-width="2"/>
 <path d="M 1992.0,1524.0 L 1982.0,1542.0 L 1991.0,1542.0 L 1988.0,1556.0 L 2000.0,1538.0 L 1991.0,1538.0 Z" fill="none" stroke="#111" stroke-width="2" stroke-linejoin="round"/>
@@ -203,45 +164,6 @@ No front view, no top view.</desc>
 <rect x="2856.0" y="2970.0" width="28" height="110" rx="4" fill="none" stroke="#111" stroke-width="2"/>
 <rect x="2910" y="2800" width="320" height="460" fill="none" stroke="#999" stroke-width="1.2" stroke-dasharray="10 7"/>
 <g class="warning-tape" stroke="#333" stroke-width="0.8">
-    <rect x="404.0" y="2180" width="43.3" height="50" fill="#c62828"/>
-    <rect x="447.3" y="2180" width="43.3" height="50" fill="#d0d0d0"/>
-    <rect x="490.7" y="2180" width="43.3" height="50" fill="#c62828"/>
-    </g>
-<g class="warning-tape slant" stroke="#333" stroke-width="0.8">
-    <polygon points="400.0,2180.0 395.6,2222.2 445.3,2227.5 449.7,2185.2" fill="#c62828"/>
-    <polygon points="395.6,2222.2 391.1,2264.4 440.8,2269.7 445.3,2227.5" fill="#d0d0d0"/>
-    <polygon points="391.1,2264.4 386.7,2306.7 436.4,2311.9 440.8,2269.7" fill="#c62828"/>
-    <polygon points="386.7,2306.7 382.2,2348.9 431.9,2354.1 436.4,2311.9" fill="#d0d0d0"/>
-    <polygon points="382.2,2348.9 377.8,2391.1 427.5,2396.3 431.9,2354.1" fill="#c62828"/>
-    <polygon points="377.8,2391.1 373.3,2433.3 423.1,2438.6 427.5,2396.3" fill="#d0d0d0"/>
-    <polygon points="373.3,2433.3 368.9,2475.6 418.6,2480.8 423.1,2438.6" fill="#c62828"/>
-    <polygon points="368.9,2475.6 364.4,2517.8 414.2,2523.0 418.6,2480.8" fill="#d0d0d0"/>
-    <polygon points="364.4,2517.8 360.0,2560.0 409.7,2565.2 414.2,2523.0" fill="#c62828"/>
-    <polygon points="360.0,2560.0 355.6,2602.2 405.3,2607.5 409.7,2565.2" fill="#d0d0d0"/>
-    <polygon points="355.6,2602.2 351.1,2644.4 400.8,2649.7 405.3,2607.5" fill="#c62828"/>
-    <polygon points="351.1,2644.4 346.7,2686.7 396.4,2691.9 400.8,2649.7" fill="#d0d0d0"/>
-    <polygon points="346.7,2686.7 342.2,2728.9 391.9,2734.1 396.4,2691.9" fill="#c62828"/>
-    <polygon points="342.2,2728.9 337.8,2771.1 387.5,2776.3 391.9,2734.1" fill="#d0d0d0"/>
-    <polygon points="337.8,2771.1 333.3,2813.3 383.1,2818.6 387.5,2776.3" fill="#c62828"/>
-    <polygon points="333.3,2813.3 328.9,2855.6 378.6,2860.8 383.1,2818.6" fill="#d0d0d0"/>
-    <polygon points="328.9,2855.6 324.4,2897.8 374.2,2903.0 378.6,2860.8" fill="#c62828"/>
-    <polygon points="324.4,2897.8 320.0,2940.0 369.7,2945.2 374.2,2903.0" fill="#d0d0d0"/>
-    <polygon points="320.0,2940.0 315.6,2982.2 365.3,2987.5 369.7,2945.2" fill="#c62828"/>
-    <polygon points="315.6,2982.2 311.1,3024.4 360.8,3029.7 365.3,2987.5" fill="#d0d0d0"/>
-    <polygon points="311.1,3024.4 306.7,3066.7 356.4,3071.9 360.8,3029.7" fill="#c62828"/>
-    <polygon points="306.7,3066.7 302.2,3108.9 351.9,3114.1 356.4,3071.9" fill="#d0d0d0"/>
-    <polygon points="302.2,3108.9 297.8,3151.1 347.5,3156.3 351.9,3114.1" fill="#c62828"/>
-    <polygon points="297.8,3151.1 293.3,3193.3 343.1,3198.6 347.5,3156.3" fill="#d0d0d0"/>
-    <polygon points="293.3,3193.3 288.9,3235.6 338.6,3240.8 343.1,3198.6" fill="#c62828"/>
-    <polygon points="288.9,3235.6 284.4,3277.8 334.2,3283.0 338.6,3240.8" fill="#d0d0d0"/>
-    <polygon points="284.4,3277.8 280.0,3320.0 329.7,3325.2 334.2,3283.0" fill="#c62828"/>
-    </g>
-<g class="warning-tape" stroke="#333" stroke-width="0.8">
-    <rect x="284.0" y="3270" width="43.3" height="50" fill="#c62828"/>
-    <rect x="327.3" y="3270" width="43.3" height="50" fill="#d0d0d0"/>
-    <rect x="370.7" y="3270" width="43.3" height="50" fill="#c62828"/>
-    </g>
-<g class="warning-tape" stroke="#333" stroke-width="0.8">
     <rect x="2686.0" y="2180" width="43.3" height="50" fill="#c62828"/>
     <rect x="2729.3" y="2180" width="43.3" height="50" fill="#d0d0d0"/>
     <rect x="2772.7" y="2180" width="43.3" height="50" fill="#c62828"/>
@@ -271,7 +193,7 @@ No front view, no top view.</desc>
     <rect x="3185.3" y="3270" width="43.3" height="50" fill="#d0d0d0"/>
     <rect x="3228.7" y="3270" width="43.3" height="50" fill="#c62828"/>
     </g>
-<text x="370" y="2258" text-anchor="middle" font-size="18" font-family="'Noto Sans CJK SC','Noto Sans SC','Source Han Sans SC',sans-serif" fill="#c62828">警示贴条·不可贴花</text>
+<text x="2740" y="2258" text-anchor="middle" font-size="18" font-family="'Noto Sans CJK SC','Noto Sans SC','Source Han Sans SC',sans-serif" fill="#c62828">警示贴条·不可贴花</text>
 <rect x="1500.0" y="3400" width="560.0" height="200" rx="8" fill="none" stroke="#111" stroke-width="2"/>
 <circle cx="1570.0" cy="3500.0" r="28" fill="none" stroke="#111" stroke-width="2"/>
 <path d="M 1572.0,3484.0 L 1562.0,3502.0 L 1571.0,3502.0 L 1568.0,3516.0 L 1580.0,3498.0 L 1571.0,3498.0 Z" fill="none" stroke="#111" stroke-width="2" stroke-linejoin="round"/>
@@ -444,5 +366,5 @@ No front view, no top view.</desc>
 
   <!-- Notes -->
   <text x="40" y="4070" font-size="24" fill="#555" font-family="'Noto Sans CJK SC','Noto Sans SC','Source Han Sans SC',sans-serif">注：仅左侧视（上，车头朝右）+ 右侧视（下，车头朝左）。斜切在车头（≈6.0°/内收120mm）；后缘垂直 + L 形开缺；无人机机场嵌于凹台内。开缺深/台面高/斜度据标注与照片估测。</text>
-  <text x="40" y="4110" font-size="22" fill="#777" font-family="'Noto Sans CJK SC','Noto Sans SC','Source Han Sans SC',sans-serif">非贴花：灰底盘 / 右侧显示屏+安装缝 / 红银警示贴条（车头斜边 + 后 L 角）。虚线框=可贴花区。左侧实心门板大可贴花区。无前视/俯视。</text>
+  <text x="40" y="4110" font-size="22" fill="#777" font-family="'Noto Sans CJK SC','Noto Sans SC','Source Han Sans SC',sans-serif">非贴花：灰底盘 / 右侧显示屏+安装缝 / 红银警示贴条（仅后 L 角，车头无警示条）。虚线框=可贴花区。左侧实心门板大可贴花区。无前视/俯视。</text>
 </svg>
