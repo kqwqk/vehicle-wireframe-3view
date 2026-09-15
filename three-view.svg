@@ -6,7 +6,7 @@
 Scale 1 user unit = 1 mm. L=3000 H=1700 W=1100.
 Rear L-cutout depth≈690mm (估测), shelf height≈1260mm (估测); rear white face VERTICAL.
 Front (车头) white-body slant ≈6.0° from vertical (inset 120mm / WHITE_H).
-Right side: display screen ≈1280×820mm + seam band (non-decal). Left: solid panel.
+Right side: display screen ≈1330×920mm + seam band (non-decal). Left: solid panel.
 Red/silver 警示贴条 on rear L corners only (non-decal; 车头无警示条). Lower chassis filled #c8c8c8 = non-decal.
 No front view, no top view.</desc>
   <rect width="100%" height="100%" fill="#ffffff"/>
@@ -148,18 +148,18 @@ No front view, no top view.</desc>
 <path d="M 400,2180 L 2590,2180 L 2590,2620 L 3280,2620 L 3280,3880 L 320,3880 A 40 40 0 0 1 280,3840 L 280,3320 L 400,2180 Z" fill="none" stroke="#111" stroke-width="3" stroke-linejoin="miter"/>
 <line x1="280" y1="3320" x2="3280" y2="3320" stroke="#111" stroke-width="2.5"/>
 <line x1="660" y1="2188" x2="660" y2="3320" stroke="#111" stroke-width="2"/>
-<rect x="985.0" y="2270" width="1280.0" height="820" fill="#c8c8c8" stroke="#111" stroke-width="2.5"/>
-<rect x="1040.0" y="2325" width="1170.0" height="690" fill="#9a9a9a" stroke="#111" stroke-width="1.8"/>
-<rect x="1555.0" y="3038.5" width="140" height="28" rx="4" fill="none" stroke="#111" stroke-width="2"/>
-<text x="1625.0" y="2662.0" text-anchor="middle" font-size="36" font-family="'Noto Sans CJK SC','Noto Sans SC','Source Han Sans SC',sans-serif" fill="#333" font-weight="600">显示屏</text>
-<text x="1625.0" y="2698.0" text-anchor="middle" font-size="22" font-family="'Noto Sans CJK SC','Noto Sans SC','Source Han Sans SC',sans-serif" fill="#555">安装缝·不可贴花</text>
+<rect x="890" y="2300" width="1330" height="920" fill="#c8c8c8" stroke="#111" stroke-width="2.5"/>
+<rect x="945" y="2355" width="1220" height="790" fill="#9a9a9a" stroke="#111" stroke-width="1.8"/>
+<rect x="1485.0" y="3168.5" width="140" height="28" rx="4" fill="none" stroke="#111" stroke-width="2"/>
+<text x="1555.0" y="2742.0" text-anchor="middle" font-size="36" font-family="'Noto Sans CJK SC','Noto Sans SC','Source Han Sans SC',sans-serif" fill="#333" font-weight="600">显示屏</text>
+<text x="1555.0" y="2778.0" text-anchor="middle" font-size="22" font-family="'Noto Sans CJK SC','Noto Sans SC','Source Han Sans SC',sans-serif" fill="#555">安装缝·不可贴花</text>
 <rect x="320" y="2260" width="320" height="1020" fill="none" stroke="#999" stroke-width="1.5" stroke-dasharray="12 8"/>
 <text x="480.0" y="2310" text-anchor="middle" font-size="24" font-family="'Noto Sans CJK SC','Noto Sans SC','Source Han Sans SC',sans-serif" fill="#888">可贴花区</text>
-<rect x="690" y="2260" width="275.0" height="1010" fill="none" stroke="#999" stroke-width="1.5" stroke-dasharray="12 8"/>
-<text x="827.5" y="2310" text-anchor="middle" font-size="22" font-family="'Noto Sans CJK SC','Noto Sans SC','Source Han Sans SC',sans-serif" fill="#888">可贴花区</text>
-<rect x="2285.0" y="2260" width="275.0" height="1010" fill="none" stroke="#999" stroke-width="1.5" stroke-dasharray="12 8"/>
-<text x="2422.5" y="2310" text-anchor="middle" font-size="20" font-family="'Noto Sans CJK SC','Noto Sans SC','Source Han Sans SC',sans-serif" fill="#888">可贴花区</text>
-<rect x="985.0" y="3098" width="1280.0" height="194" fill="none" stroke="#999" stroke-width="1.2" stroke-dasharray="10 7"/>
+<rect x="690" y="2260" width="180" height="1010" fill="none" stroke="#999" stroke-width="1.5" stroke-dasharray="12 8"/>
+<text x="780.0" y="2310" text-anchor="middle" font-size="22" font-family="'Noto Sans CJK SC','Noto Sans SC','Source Han Sans SC',sans-serif" fill="#888">可贴花区</text>
+<rect x="2240" y="2260" width="320" height="1010" fill="none" stroke="#999" stroke-width="1.5" stroke-dasharray="12 8"/>
+<text x="2400.0" y="2310" text-anchor="middle" font-size="20" font-family="'Noto Sans CJK SC','Noto Sans SC','Source Han Sans SC',sans-serif" fill="#888">可贴花区</text>
+<rect x="890" y="3228" width="1330" height="64" fill="none" stroke="#999" stroke-width="1.2" stroke-dasharray="10 7"/>
 <rect x="2610" y="2640" width="650" height="650" rx="6" fill="none" stroke="#111" stroke-width="2"/>
 <rect x="2626.0" y="2910.0" width="28" height="110" rx="4" fill="none" stroke="#111" stroke-width="2"/>
 <rect x="2680" y="2680" width="550" height="580" fill="none" stroke="#999" stroke-width="1.2" stroke-dasharray="10 7"/>
