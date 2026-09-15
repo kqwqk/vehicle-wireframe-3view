@@ -43,6 +43,8 @@
   three-view.png   — 高分辨率预览
   index.html / styles.css / vercel.json — 静态站
   README.txt       — 本说明
+  wrap-design-v1.svg / .png — 贴花覆膜方案 v1（含线框底图，Logo 路径内嵌）
+  generate_wrap_design.py — 贴花方案生成（仅源码目录）
 
 贴花 / 覆膜建议表面
   最佳：侧视残留白身「可贴花区」虚线框（右侧已避开屏幕）；左侧主门板虚线框
@@ -66,3 +68,10 @@
 
 生成
   python generate_three_view.py  — 写出 SVG/PNG 并复制到 vehicle-wireframe-web/
+
+贴花 / 覆膜设计方案 v1
+  wrap-design-v1.svg / wrap-design-v1.png — 线框底图 + 贴花层（自包含 Logo 路径）
+  主色 #009A2C；辅 #007A24 / #4CAF50 / 底 #E8F5E9
+  单位名：杭州市生态环境局（牵头）；浙江同兴技术股份有限公司；聚光科技（杭州）股份有限公司
+  仅贴允许区：左侧主门板大画布；右侧屏周残留白身。禁贴灰底盘/屏缝/警示条/把手/轮系
+  生成：python generate_wrap_design.py

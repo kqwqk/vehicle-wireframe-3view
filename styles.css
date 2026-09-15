@@ -118,3 +118,15 @@ main { padding: 28px 0 48px; display: grid; gap: 20px; }
   .dims { grid-template-columns: 1fr; }
   .viewer-toolbar { flex-direction: column; align-items: flex-start; }
 }
+
+.section-title { margin: 0 0 10px; font-size: 1.2rem; font-weight: 700; }
+.wrap-intro { margin: 0 0 12px; }
+.wrap-intro code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.88em; background: #f0f1f3; padding: 1px 6px; border-radius: 4px;
+}
+.btn.eco {
+  background: #009A2C; color: #fff; border-color: #009A2C;
+}
+.btn.eco:hover { background: #007A24; border-color: #007A24; }
+.wrap-design .legend { margin-top: 4px; }
